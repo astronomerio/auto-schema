@@ -87,6 +87,8 @@ function typed(key, val, opts) {
 function keySpecific(key, val) {
   switch (key) {
     case 'timestamp': return 'timestamp';
+    case 'sentAt': return 'timestamp';
+    case 'recievedAt': return 'timestamp';
   }
 }
 
